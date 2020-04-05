@@ -1,4 +1,6 @@
 # Widgets
+https://intokufileshare.blob.core.windows.net/widgets/intoku-widgets-es2015.js <br>
+es5: https://intokufileshare.blob.core.windows.net/widgets/intoku-widgets-es5.js
 ## Account Button
 Der Nutzer wird nach dem klick auf den Login button zur Login/Registration Seite umgeleitet.
 Das Attribute account-url ist der Link zur Kundenseite, wenn der Nutzer eingeloggt ist.
