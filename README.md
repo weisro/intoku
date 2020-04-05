@@ -31,6 +31,8 @@ Mit diesem Widget verschafft sich der Kunde einen Überblick über seine Termine
 
 ## Shop
 Der Shop kann kann sowohl einen Kursplan als auch ein FlexTime Widget beinhalten.
+Falls das Attribute schedule nicht gesetzt ist, dann werden beide Varianten angezeigt.
+Das Attribute step bestimmt welche Schritt als erstes angezeigt wird: Kursplan oder der Einkaufswagen
 Folgende Paramter steuern das Aussehen des Shops:
 | Attribute     | Mögliche Werte| 
 | ------------- |:-------------:|
@@ -38,6 +40,7 @@ Folgende Paramter steuern das Aussehen des Shops:
 | account-url   | ein link zur Kundenseite |
 | category      | YogaAndMore, Ayurveda, Therapie, HealthCoaching  |
 | consultant-id  | Die Id des Teachers (kann aus der url des Teachers in der Manage app entnommen werden). Dabei werden nur die Kurse/Privatstunden dieses Teacher angezeigt.  |
+| step      | courses, cart  |
 
 Beispiel:
 Um Einen Kursplan anzuzeigen und den Loginknopf auf eine weitere Seite mit dem Kundenwidget zu verlinken.
@@ -47,6 +50,7 @@ Um Einen Kursplan anzuzeigen und den Loginknopf auf eine weitere Seite mit dem K
 
 ## Shopping Cart Button
 Zeigt das Einkaufswagensymbol und die Anzahl der Elemente im Einkaufswagen.
+Mit dem Attribute color kann die Farebe des icons gesetzt werden.
 ```html
 <intoku-shopping-cart-button></intoku-shopping-cart-button>
 ```
