@@ -81,11 +81,11 @@ Folgende Paramter beeinflussen das Verhalten und Aussehen des Booking Buttons fÃ
 Beispiel Klasse:
 
 ``` html
-<stamy-booking-button type="class" background-color="green" color="white" appointment-id="123456789" cart-url="'/shopping-cart'"></stamy-booking-button>
+<stamy-booking-button type="class" background-color="green" color="white" appointment-id="123456789" cart-url="/shopping-cart"></stamy-booking-button>
 ```
 
 Beispiel Flex-Time:
 
 ``` html
-<stamy-booking-button type="flex-time" service-product-id="123456789" consultant-id="abc" cart-url="'/shopping-cart'"></stamy-booking-button>
+<stamy-booking-button type="flex-time" service-product-id="123456789" consultant-id="abc" cart-url="/shopping-cart"></stamy-booking-button>
 ```
